@@ -1,0 +1,181 @@
+What is Ethical Hacking?
+
+Ethical hacking refers to the process of legally breaking into computers and devices to test an organization's defenses. Ethical hackers, also known as **white-hat hackers**, are cybersecurity experts hired to find vulnerabilities in a system before malicious hackers (black-hat hackers) can exploit them.
+
+Definition: Ethical hacking is the authorized practice of bypassing system security to identify potential data breaches and threats in a network.
+
+Key Objectives:
+
+* Identify security vulnerabilities.
+* Strengthen system defenses.
+* Prevent cyberattacks.
+* Ensure compliance with security standards.
+
+---
+
+Who is an Ethical Hacker?
+
+An **ethical hacker** is a security professional who uses the same tools and techniques as a malicious hacker but does so with permission to improve security.
+
+**Roles of an Ethical Hacker:**
+
+* Penetration testing
+* Vulnerability assessments
+* Social engineering simulations
+* Risk assessment
+* Reporting security flaws
+
+---
+
+Types of Ethical Hacking
+
+Ethical hacking can be categorized based on **target systems** and **attack methods**:
+
+1.Web Application Hacking
+
+* Involves testing web applications for vulnerabilities like SQL injection, cross-site scripting (XSS), CSRF, etc.
+* Tools: Burp Suite, OWASP ZAP
+
+ 2. Network Hacking
+
+* Explores network devices, firewalls, switches, and routers.
+* Focuses on sniffing, session hijacking, and denial of service attacks.
+* Tools: Nmap, Wireshark, Aircrack-ng
+
+3. **Wireless Network Hacking**
+
+* Exploits weaknesses in Wi-Fi protocols like WEP, WPA, WPA2.
+* Involves cracking keys, intercepting signals.
+* Tools: Aircrack-ng, Kismet
+
+ 4. **System Hacking**
+
+* Gaining unauthorized access to individual computers or servers.
+* Involves password cracking, privilege escalation.
+* Tools: Metasploit, John the Ripper
+
+5. **Social Engineering**
+
+* Tricking users into giving up confidential information.
+* Techniques: phishing, pretexting, baiting.
+* Tools: Social Engineer Toolkit (SET)
+
+ 6. **Mobile Hacking**
+
+* Testing security of mobile applications and OS vulnerabilities (Android/iOS).
+* Tools: Drozer, MobSF, Frida
+
+ 7. **Cloud Hacking**
+
+* Assessing cloud platforms (AWS, Azure, GCP) for misconfigurations, data exposure.
+* Tools: ScoutSuite, Prowler
+
+---
+
+Ethical Hacking Process (Phases)
+
+1. **Reconnaissance (Information Gathering)**
+
+   * Collecting data using tools or open-source intelligence (OSINT).
+   * Types: Passive and Active Reconnaissance.
+
+2. **Scanning**
+
+   * Identifying open ports, services, and vulnerabilities.
+   * Tools: Nmap, Nessus
+
+3. **Gaining Access**
+
+   * Exploiting vulnerabilities to gain system access.
+   * Tools: Metasploit, Hydra
+
+4. **Maintaining Access**
+
+   * Ensuring persistent access for further analysis.
+   * May involve backdoors or rootkits.
+
+5. **Clearing Tracks**
+
+   * Removing evidence of the attack to avoid detection.
+   * *Note: Ethical hackers simulate this step, but must not harm systems.*
+
+6. **Reporting**
+
+   * Documenting vulnerabilities and suggesting mitigation strategies.
+
+---
+
+Popular Tools Used in Ethical Hacking
+
+| Tool            | Purpose                    |
+| --------------- | -------------------------- |
+| Nmap            | Network scanning           |
+| Wireshark       | Packet analysis            |
+| Metasploit      | Exploit development        |
+| Burp Suite      | Web vulnerability scanning |
+| John the Ripper | Password cracking          |
+| Aircrack-ng     | Wireless hacking           |
+| Nikto           | Web server scanning        |
+| Nessus          | Vulnerability assessment   |
+
+---
+
+Skills Required for Ethical Hacking
+
+* Strong understanding of **networking protocols** (TCP/IP, DNS, etc.)
+* Proficiency in **operating systems** (especially Linux)
+* Knowledge of **programming/scripting languages** (Python, Bash, JavaScript)
+* Familiarity with **cybersecurity concepts** (encryption, firewalls, IDS/IPS)
+* Analytical thinking and **problem-solving** skills
+* Understanding of **regulations and compliance** (e.g., GDPR, HIPAA)
+
+---
+
+Legal and Ethical Considerations
+
+* **Authorization is mandatory**: Only hack with written permission.
+* **Confidentiality**: Maintain discretion of findings.
+* **Non-disruptive**: Ensure no damage or downtime occurs.
+* **Compliance**: Adhere to laws like:
+
+  * Computer Fraud and Abuse Act (U.S.)
+  * GDPR (Europe)
+  * IT Act 2000 (India)
+
+> Unauthorized hacking is **illegal** and punishable by law.
+
+---
+
+Certifications in Ethical Hacking
+
+1. **CEH (Certified Ethical Hacker)** – EC-Council
+2. **OSCP (Offensive Security Certified Professional)** – Offensive Security
+3. **CompTIA Security+**
+4. **CPT (Certified Penetration Tester)**
+5. **CREST Certifications**
+
+---
+
+Benefits of Ethical Hacking
+
+* Improves organizational security posture.
+* Protects customer data and privacy.
+* Reduces risk of cyberattacks.
+* Enhances compliance and trust.
+
+---
+
+Black Hat vs White Hat vs Grey Hat
+
+| Type      | Legality      | Intent                              |
+| --------- | ------------- | ----------------------------------- |
+| Black Hat | Illegal       | Malicious, for personal gain        |
+| White Hat | Legal         | Ethical, with permission            |
+| Grey Hat  | Often Illegal | Exploratory, but without permission |
+
+---
+
+Conclusion
+
+Ethical hacking plays a vital role in modern cybersecurity. With rising threats, organizations depend on ethical hackers to proactively safeguard their digital assets. With the right skills, certifications, and adherence to legal norms, ethical hacking is a respected and impactful career path.
+
