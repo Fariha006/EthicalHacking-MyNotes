@@ -1,0 +1,115 @@
+What is a Network?
+A network is a collection of interconnected devices (computers, routers, switches, etc.) that communicate with each other to share data and resources.
+
+Types:
+
+LAN (Local Area Network)
+
+WAN (Wide Area Network)
+
+MAN (Metropolitan Area Network)
+
+PAN (Personal Area Network)
+What is a Subnet?
+Definition: A subnet (subnetwork) is a logically segmented portion of a larger network. Subnets divide large networks into smaller, more manageable pieces.
+
+Purpose:
+
+Improve performance and security.
+
+Reduce broadcast traffic.
+
+Example:
+
+IP Address: 192.168.1.0
+
+Subnet Mask: 255.255.255.0
+
+Subnet range: 192.168.1.1 to 192.168.1.254
+
+
+| Feature            | TCP (Transmission Control Protocol)  | UDP (User Datagram Protocol)       |
+| ------------------ | ------------------------------------ | ---------------------------------- |
+| Connection         | Connection-oriented                  | Connectionless                     |
+| Reliability        | Reliable (ensures delivery)          | Unreliable (no delivery guarantee) |
+| Error Checking     | Yes (error recovery, retransmission) | Yes (simple checksum, no recovery) |
+| Speed              | Slower                               | Faster                             |
+| Packet Ordering    | Maintains order                      | No ordering                        |
+| Use Cases          | Web, email, FTP, SSH                 | Streaming, VoIP, DNS, gaming       |
+| Header Size        | 20 bytes                             | 8 bytes                            |
+| Congestion Control | Yes                                  | No                                 |
+
+What is MAC ID (MAC Address)?
+MAC (Media Access Control) address is a unique hardware identifier for a network interface card (NIC).
+
+Assigned by manufacturers.
+
+Format: 00:1A:2B:3C:4D:5E
+
+Used at the Data Link Layer (Layer 2) of the OSI model.
+
+Purpose:
+
+Identifies devices on the same local network.
+
+Required for ARP (Address Resolution Protocol) mapping.
+
+What is an IP Address?
+An IP address (Internet Protocol address) is a unique identifier assigned to each device on a network.
+
+Purpose:
+
+Identify and locate devices.
+
+Facilitate communication on a network.
+
+Format:
+
+IPv4: 192.168.1.1
+
+IPv6: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+| Feature             | IPv4                           | IPv6                                       |
+| ------------------- | ------------------------------ | ------------------------------------------ |
+| Address Length      | 32 bits                        | 128 bits                                   |
+| Format              | Decimal (e.g., 192.168.0.1)    | Hexadecimal (e.g., 2001\:db8::1)           |
+| Number of Addresses | \~4.3 billion                  | 340 undecillion (3.4 × 10³⁸)               |
+| Address Type        | Unicast, Broadcast, Multicast  | Unicast, Multicast, Anycast                |
+| Header Complexity   | Simple                         | More complex with improved efficiency      |
+| Security            | Optional (IPSec not mandatory) | Mandatory support for IPSec                |
+| NAT Required        | Yes, due to limited IPs        | No, enough addresses for every device      |
+| Used in             | Most current networks          | Slowly replacing IPv4, IoT and 5G networks |
+
+Bridged Networking (VBox)
+Bridged Networking: A VirtualBox network mode that allows the virtual machine to appear as a separate physical device on the same network as the host.
+
+How it works:
+
+The VM connects to the physical network via the host’s network adapter.
+
+It receives its own IP address from the router (DHCP).
+
+Use Case: Allows the VM to communicate with other devices on the LAN just like a real computer.
+
+ VBox VDI (VirtualBox Virtual Disk Image)
+VBox VDI: A Virtual Disk Image (VDI) file is the default virtual hard disk format used by Oracle VirtualBox, a type-2 hypervisor for running virtual machines.
+
+Uses:
+
+Stores the virtual machine's data (OS, files, apps).
+
+Can be dynamically allocated (grows as needed) or fixed size (pre-allocated).
+
+Example: A VDI file might be used to install Ubuntu in VirtualBox on a Windows host machine.
+
+| Type       | Static IP Address                   | Dynamic IP Address              |
+| ---------- | ----------------------------------- | ------------------------------- |
+| Assignment | Manually assigned                   | Automatically assigned by DHCP  |
+| Changes    | Does not change                     | Changes periodically            |
+| Stability  | More stable                         | Less stable                     |
+| Cost       | Often costs more (ISP fee)          | Usually free (included by ISPs) |
+| Use Cases  | Servers, security systems, websites | Home networks, general users    |
+
+
+
+
+
